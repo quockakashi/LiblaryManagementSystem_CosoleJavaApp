@@ -1,0 +1,60 @@
+Thư viện thì cần gì (Dành cho người đọc) (Version 1.0)
+đầu tiên
+
+----- Sách
+    --- Thông tin sách
+        + Tên sách
+        + ISBM
+        + Nhà xuất bản
+        + Tác giả
+        + Tình trạng mượn hay chưa
+
+
+----- Người đọc (Thành viên/ Member)
+    --- Thông tin người đọc
+    + email
+    + password
+    + ten dang nhap(?)
+    + Id người đọc
+    + Họ tên (FirstName, LastName)
+    + Ngày sinh (?)
+    + Địa chỉ (?)
+    + Hạn thành viên (?)
+
+    ---Cart (Đã bỏ vào và đang định mượn)
+        Một tập các giỏ sách (Book[])
+
+
+    --- Giỏ sách đang mượn
+
+
+    --- Lịch sử mượn sách -> trích xuất từ lịch sử mượn sách
+
+
+
+
+---- Quản lý mượn sách (Tổng hợp tất cả các lần mượn sách cả đang và đã)
+      + Id sách
+      + Ngày mượn
+      + Ngày trả
+      + Id người mượn
+
+
+----- Quản lý người đọc
+       + Member[]
+       + Đăng ký thành viên
+
+------ Quản lý sách
+       + Book[]
+
+
+Menu
+    + Đăng ký
+    + Đăng nhập/ Đăng xuất
+    + Danh mục sách -> Tìm sách(theo id) / Tất cả sách
+    + Danh sách sách đang mượn -> Trả sách
+    + Cart (Danh sách sách trong giỏ) -> Mượn sách
+    + Lịch sử mượn sách (Cả đang và đã)
+
+    Trước tiên như vậy đã okela
+Chủ thích (?) là để các version sau, thực hiện đơn giản trước đã
